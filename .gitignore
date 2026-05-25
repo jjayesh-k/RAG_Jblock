@@ -5,6 +5,15 @@ __pycache__/
 ragvm_venv/
 input_manuals/
 
+# Local LLMs & Rerankers
+*.gguf
+*.bin
+*.safetensors
+*.onnx
+flashrank_cache/
+.flashrank/
+models/
+
 # C extensions
 *.so
 
